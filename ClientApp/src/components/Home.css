@@ -1,0 +1,75 @@
+﻿.Home {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60%; 
+    padding: 10px;
+}
+
+    .Home h1 {
+        display: flex;
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+.Home p {
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Home {
+        width: 100%;
+    }
+}
+
+.Home input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    padding: 14px 20px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    border: none;    
+    width: 50%;
+}
+
+
+    .Home button {
+        background: #ffffff;
+        border-radius: 90px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 20px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border: none;
+        vertical-align: middle;
+        transition: box-shadow 0.2s ease;
+        width: 50%;
+        text-align: center;
+        margin: 1rem auto;
+    }
+
+.Home button:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+/*.inner {
+    position: absolute;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.outer {
+    position: relative;
+}*/
+
+

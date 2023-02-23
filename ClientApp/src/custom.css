@@ -1,0 +1,39 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+
+body, html {
+    margin: 0;
+    background-image: url('../src/Images/blob-scene-haikei.svg');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    /*background-color: #c6d3e3;*/
+    /*height: 100%;*/
+    width: 100%;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    body, html {
+        background-image: url('../src/Images/blob-scene-haikei_Phone.svg');
+    }
+}
+
+    /*.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/

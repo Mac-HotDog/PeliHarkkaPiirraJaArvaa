@@ -1,0 +1,79 @@
+﻿/*.tools{
+    flex-direction: row;
+    position: absolute;
+}*/
+
+/*.canvas{
+    margin-left: 20%;    
+}*/
+
+/*.colorpick-container {
+    position: relative;
+}
+
+.colorpick-container button {
+    padding: 1rem;
+}
+
+.thic-container button {
+    float: left;
+    margin: 5px;      
+}
+
+.colorpick {
+    z-index: 3;
+    background: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    top: -120px;
+    right: 0;
+    left: 1px;
+    width: 255px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.colorpick.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.colorpick ul {
+    list-style: none;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.colorpick-trigger {
+    background: #ffffff;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.2s ease;
+
+}
+
+.colorpick-trigger:hover {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+}
+
+.colorpick-trigger span {
+    font-weight: 700;
+    vertical-align: middle;
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+    .colorpick-trigger img {
+        border-radius: 90px;
+    }*/

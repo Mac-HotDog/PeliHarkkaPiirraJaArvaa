@@ -1,0 +1,286 @@
+/*Form Button {
+    width: 100%;
+}*/
+
+/*h1 {
+    text-align: center;
+}*/
+
+/*h2 {
+    color: #313131;
+}
+
+h4 {
+    margin-left: 10%;
+}
+
+h6 {
+    color: greenyellow;
+    margin-left: 10%;
+}
+*/
+/*.leave-room {
+    text-align: center;
+    width: 80%;
+    margin: 10px 10%;
+}*/
+
+/*hr.line {
+    border: 1px solid #313131;
+    width: 175px;
+}
+*/
+
+/*.app {
+    margin: auto;
+    padding-top: 40px;
+    width: 950px;
+    text-align: center;
+}*/
+
+/*.lobby {
+    width: 400px;
+    margin: auto;
+}*/
+
+/*.chat {
+    display: grid;
+    overflow: hidden;
+}*/
+
+/*.user-list {
+    float: left;
+    background-color: #313131;
+    color: white;
+    width: 20%;
+    height: 440px;
+}*/
+*.message-container {
+    height: 90px;
+    overflow: auto;
+    overflow:hidden;
+    z-index: 2;
+    /*   margin-bottom: 360px;
+    width: 20%;
+    margin-left: 80%;*/
+}
+
+
+.user-message {
+    text-align: end;
+    font: auto;
+    /*background: #ffffff;*/
+    border-radius: 90px;
+   /* justify-content: space-between;
+    align-items: center;*/
+   /* padding: 2px 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);*/
+    /*border: none;*/
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+
+
+.top_in-users {
+    float: left;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border: 3px solid #73AD21;
+    flex-direction: row;
+    width: 200px;
+}
+
+.users-container {
+    /*display: flex;*/
+    /*height: 80px;*/
+    overflow: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+    .users-container h4 {
+        font-size: 18px;
+        text-decoration: underline;
+        color: darkslategrey;
+    }
+
+.userlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+    .userlist h6 {
+        margin: 3px;
+        color: darkcyan;
+    }
+
+
+/*.message {
+    display: inline-flex;
+    padding: 5px;*/
+    /*margin: 0px auto 0px auto;*/
+    /*font-size: 18px;*/
+    /*color: white;*/
+    /*border-radius: 20px;*/
+    /*margin-top: 3px;*/
+/*}*/
+
+/*.from-user {
+    font-size: small;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+.sendmessage {
+    width: 10px;
+}*/
+
+.formi {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.inputti {
+    width: 85%;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.nappi {
+    width: 15%;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.message-color-white {
+    background-color: white;
+    padding: 1px 2px;
+    border-radius: 90px;
+    color: midnightblue;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+}
+
+.message-color-green {
+    background-color: forestgreen;
+    padding: 2px 4px;
+    border-radius: 90px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+}
+
+.message-color-red {
+    background-color: palevioletred;
+    padding: 2px 4px;
+    border-radius: 90px;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    /*height: 900px;*/
+}
+
+
+.top {
+    /*height: 100px;*/
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    display: flex;
+    margin: 1rem;
+}
+
+    .top button {
+        float: left;
+        background-color: white;
+        border-radius: 90px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 14px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+        border: none;
+        vertical-align: middle;
+        transition: box-shadow 0.2s ease;
+        color: red;
+        margin-bottom: 10px;
+    }
+
+    .top button:hover {
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+        background-color: red;
+        transition: background-color 1000ms linear;
+        color: whitesmoke;
+        transition: color 0.5s ease;
+        border-radius: 90px;
+    }
+
+.top_in {
+    float: left;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.middle {
+    height: 780px;
+}
+
+.middle_guess {
+    text-align: center;
+
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.bottom {
+    margin: auto;
+    width: 70%;     
+}
+
+
+@media only screen and (max-height: 750px) {
+    .middle {
+        height: 550px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+    }
+ 
+
+}
+
+@media only screen and (max-height: 800px) {
+    .bottom {
+        position: absolute;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+    }
+}
+

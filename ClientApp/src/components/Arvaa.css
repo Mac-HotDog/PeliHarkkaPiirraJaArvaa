@@ -1,0 +1,152 @@
+.tools {
+    flex-direction: row;
+    position: absolute;
+}
+
+/*.canvas{
+    margin-left: 20%;    
+}*/
+
+.colorpick-container {
+    position: relative;
+    margin: 2px;
+}
+
+    .colorpick-container button {
+        padding: 1rem;
+    }
+
+.thic-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.thic-container button {
+    float: left;
+    margin: 5px;
+}
+
+
+.colorpick {
+    z-index: 3;
+    background: #ffffff;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 80px;
+    /*top: -120px;*/
+    right: 0;
+    left: 1px;
+    width: 255px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+
+}
+
+    .colorpick.active {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .colorpick ul {
+        list-style: none;
+        padding: 0.5rem;
+        margin: 0;
+    }
+
+.colorpick-trigger {
+    background: #ffffff;
+    border-radius: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: none;
+    vertical-align: middle;
+    transition: box-shadow 0.2s ease;
+}
+
+
+
+    .colorpick-trigger:hover {
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+    }
+
+   /* .colorpick-trigger span {
+        font-weight: 700;
+        vertical-align: middle;
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .colorpick-trigger img {
+        border-radius: 90px;
+    }*/
+
+
+/*.inner {
+    position: absolute;
+    border: 3px solid #73AD21;
+}*/
+
+.canvas {
+    position: absolute;
+    top: 50%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.outer {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%);
+    /*position: relative;*/
+    border: 3px solid #73AD21;
+}
+
+.tools {    
+    z-index: 5;
+    position: absolute;
+    top: 90%; /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .outer {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .outer {
+        height: 100%;
+        width: 100%;
+    }
+
+    
+}
+
+@media only screen and (max-height: 750px) {
+    .tools {
+        z-index: 5;
+        position: absolute;
+        top: 90%; /* position the top  edge of the element at the middle of the parent */
+        left: 50%; /* position the left edge of the element at the middle of the parent */
+
+        transform: translate(-50%, -50%);
+    }
+}
